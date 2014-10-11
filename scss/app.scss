@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Ubuntu+Condensed|Ubuntu+Mono:400,700|Roboto+Slab:300,400,700);
+
+body {
+	background-color: #000808;
+	color: #CCFFCC;
+	font-size: 11pt;
+	font-family: Ubuntu, sans-serif;
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+pre, code, samp, kbd {
+	font-family: "Ubuntu Mono", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+}
+
+a {
+	color: #00B28F;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+iframe {
+	border: 0;
+}
+
+header {
+	border-bottom: 1px solid #003329;
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Roboto Slab", serif;
+		margin: 0;
+		
+		a {
+			color: inherit;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	
+	nav {
+		float: right;
+		font-family: "Roboto Condensed", sans-serif;
+		font-weight: 300;
+		font-size: 1.3em;
+		
+		a {
+			display: inline-block;
+			margin: 0;
+			border-top: 2pt solid transparent;
+			&:hover {
+				text-decoration: none;
+				border-top: 2pt solid #00B28F;
+			}
+		}
+	}
+}
+
+div.toc {
+	font-size: 0.8em;
+	background-color: #000E0E;
+	display: table;
+	max-width: 640px;
+	padding: 3pt;
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 0;
+		margin-bottom: 3pt;
+	}
+	ul {
+		list-style-type: none;
+		padding-left: 6pt;
+		margin: 0;
+	}
+}
+
+.rmail {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
