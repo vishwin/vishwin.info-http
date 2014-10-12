@@ -6,6 +6,7 @@
 	<title>{% if title %}{{ title|e }}&nbsp;&ndash;&nbsp;{% endif %}Charlie Li</title>
 	<link rel="stylesheet" href="/static/css/app.css">
 </head>
-<body>{% block body %}
+<body>{% include 'header.html' %}
+{% block body %}
 {% endblock %}</body>
 </html>
