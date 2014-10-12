@@ -1,7 +1,8 @@
 #!/usr/bin/python3.4
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, Markup
 from flask.ext.libsass import *
 import pkg_resources
+import markdown
 
 app=Flask(__name__)
 
@@ -13,13 +14,18 @@ Sass(
 	output_style='compressed'
 )
 
-@app.route('/')
-def index():
-	return 'Just messing around. Nothing to see yet.'
-
 @app.route('/<page>')
 def get_page(page):
-	return 'This is where ' + page + ' would display.'
+	md=open(pkg_resources.resource_filename('views', 'pages/' + page + '.md'), encoding='UTF-8')
+	html=Markup(markdown.markdown(md.read(), output_format='html5'))
+	md.close()
+	if page=='index':
+		return render_template('page.html', content=html)
+	return render_template('page.html', content=html, title=page)
+
+@app.route('/')
+def index():
+	return get_page('index')
 
 if __name__=='__main__':
 	app.run()
