@@ -65,6 +65,16 @@ header {
 	}
 }
 
+footer {
+	border-top: 1px solid #003329;
+	
+	p {
+		font-family: "Ubuntu Mono", monospace;
+		font-size: 0.9em;
+		text-align: center;
+	}
+}
+
 div.toc {
 	font-size: 0.8em;
 	background-color: #000E0E;
