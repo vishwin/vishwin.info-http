@@ -1,5 +1,5 @@
 #!/usr/bin/python3.4
-from flask import Flask, render_template, url_for, Markup
+from flask import Flask, render_template, url_for, Markup, abort
 from flask.ext.libsass import *
 import pkg_resources
 import markdown
@@ -16,12 +16,15 @@ Sass(
 
 @app.route('/<page>')
 def get_page(page):
-	md=open(pkg_resources.resource_filename('views', 'pages/' + page + '.md'), encoding='UTF-8')
-	html=Markup(markdown.markdown(md.read(), output_format='html5'))
-	md.close()
-	if page=='index':
-		return render_template('page.html', content=html)
-	return render_template('page.html', content=html, title=page)
+	try:
+		md=open(pkg_resources.resource_filename('views', 'pages/' + page + '.md'), encoding='UTF-8')
+		html=Markup(markdown.markdown(md.read(), output_format='html5'))
+		md.close()
+		if page=='index':
+			return render_template('page.html', content=html)
+		return render_template('page.html', content=html, title=page)
+	except OSError:
+		abort(404)
 
 @app.route('/')
 def index():
