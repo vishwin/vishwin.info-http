@@ -1,7 +1,7 @@
 #!/usr/bin/python3.4
 from flask import Flask, render_template, url_for, Markup, abort
 from flask.ext.libsass import *
-import pkg_resources
+import pkg_resources, socket
 
 import markdown
 from markdown.extensions.headerid import HeaderIdExtension
@@ -23,8 +23,8 @@ def get_page(page):
 		html=Markup(markdown.markdown(md.read(), output_format='html5', extensions=['markdown.extensions.attr_list', 'markdown.extensions.def_list', 'markdown.extensions.fenced_code', 'markdown.extensions.tables', 'markdown.extensions.toc', HeaderIdExtension(level=2)]))
 		md.close()
 		if page=='index':
-			return render_template('page.html', content=html)
-		return render_template('page.html', content=html, title=page)
+			return render_template('page.html', hostname=socket.gethostname(), content=html)
+		return render_template('page.html', hostname=socket.gethostname(), content=html, title=page)
 	except OSError:
 		abort(404)
 
