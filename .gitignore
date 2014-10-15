@@ -2,3 +2,4 @@
 config.py # sensitive
 *~ # GUI text editor tmp crap
 .DS_Store # OS X crap
+*.wsgi
