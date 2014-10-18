@@ -31,8 +31,8 @@
 ```
 * [me](Me)&nbsp;&ndash;&nbsp;about me, myself and yours truly and the reason for existence.
 * [blog](http://blog.vishwin.info)&nbsp;&ndash;&nbsp;semi-random musings at semi-random intervals.
-* [site](Impressum)&nbsp;&ndash;&nbsp;this site reeks of geek
-* [email](Email)&nbsp;&ndash;&nbsp;the tried-and-true way of contacting me amongst everything else.
+* [impressum](Impressum)&nbsp;&ndash;&nbsp;this site reeks of geek
+* [contact](Contact)&nbsp;&ndash;&nbsp;email is best, with caveats
 
 # work/
 ```
@@ -54,6 +54,7 @@
     \___)=(___/
 ```
 * [projects](Projects)&nbsp;&ndash;&nbsp;mostly code I've written, though other things can sneak in
+	* [git](http://cgit.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
 * [resume](static/resume.pdf)&nbsp;&ndash;&nbsp;in PDF format.
 
 # recreation/
