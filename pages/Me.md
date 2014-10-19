@@ -12,8 +12,8 @@ In my other time not spent in front of desktop computer machines (includes lapto
 
 If you need to contact me, email works for pretty much everything, especially for new acquaintances. I have three accounts for different purposes:
 
-* <a class="pmail" href="/JavaScript">Personal stuff</a>
-* <a class="bmail" href="/JavaScript">Business and engineering purposes</a>
-* <a class="amail" href="/JavaScript">Academic stuff</a>
+* [Personal stuff](/JavaScript){: class="pmail" }
+* [Business and engineering purposes](/JavaScript){: class="bmail" }
+* [Academic stuff](/JavaScript){: class="amail" }
 
 But please read my [notes on email](/Email) first; they may come in handy.
