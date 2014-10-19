@@ -16,4 +16,4 @@ If you need to contact me, email works for pretty much everything, especially fo
 * [Business and engineering purposes](/JavaScript){: class="bmail" }
 * [Academic stuff](/JavaScript){: class="amail" }
 
-But please read my [notes on email](/Email) first; they may come in handy.
+But please read my [notes on email](/Contact#Email) first; they may come in handy.
