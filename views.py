@@ -8,6 +8,8 @@ from markdown.extensions.headerid import HeaderIdExtension
 
 from slimit import minify
 
+from PIL import Image
+
 app=Flask(__name__)
 
 Sass(
@@ -26,6 +28,15 @@ def render_js(js):
 		fd.close()
 		return out
 	except OSError:
+		abort(404)
+
+@app.route('/static/img/<width>px-<imgfile>')
+def render_thumb(width, imgfile):
+	try:
+		img=Image.open(pkg_resources.resource_filename('views', 'img/', imgfile))
+		img.thumbnail((width, width/(img.size[0]/img.size[1])))
+		return img
+	except IOError:
 		abort(404)
 
 @app.route('/<page>')
