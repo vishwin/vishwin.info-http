@@ -1,6 +1,10 @@
 *.pyc
-config.py # sensitive
-*~ # GUI text editor tmp crap
-.DS_Store # OS X crap
+# sensitive information:
+config.py
+# crap tmp files left by GUI text editors:
+*~
+# OS X crap
+.DS_Store
 *.wsgi
-*.sh # Updater shell script(s) for cron
+# updater shell scripts
+*.sh
