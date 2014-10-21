@@ -111,3 +111,12 @@ div.toc {
 	direction: rtl;
 	unicode-bidi: bidi-override;
 }
+
+table {
+	border-spacing: 0;
+	border: 1px solid #19473E;
+	width: 100%;
+}
+td {
+	border: 1px solid #19473E;
+}
