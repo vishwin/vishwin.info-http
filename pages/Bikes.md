@@ -7,7 +7,7 @@ Because I enjoy looking at transit authority fleet assignment sheets, I may as w
 
 Name                                | Type             | Status | Comments
 ----------------------------------- | ---------------- | ------ | --------------------------------------------------------
-[Big Red Detroit](#big-red-detroit) | Road             | Out    | Rear wheels are cleaned, remainder still to do
+[Big Red Detroit](#big-red-detroit) | Road             | In     | 
 [Steelie](#steelie)                 | Fixed cyclocross | In     | Gets coat of Boeshield T-9 on chain every 1.5&nbsp;weeks
 
 # Fleet
