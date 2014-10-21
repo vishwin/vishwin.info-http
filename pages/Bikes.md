@@ -3,6 +3,8 @@ As mentioned in the [about me](Me) page, I'm an avid cyclist. Thus, it only make
 [TOC]
 
 # Status
+
+![Big Red Detroit taking a bath](/static/img/640px-brd_bath.jpg)
 Because I enjoy looking at transit authority fleet assignment sheets, I may as well have one too.
 
 Name                                | Type             | Status | Comments
