@@ -1,5 +1,5 @@
 #!/usr/bin/python3.4
-from flask import Flask, render_template, url_for, Markup, abort
+from flask import Flask, render_template, url_for, Markup, abort, send_file
 from flask.ext.libsass import *
 import pkg_resources, socket
 
@@ -9,6 +9,7 @@ from markdown.extensions.headerid import HeaderIdExtension
 from slimit import minify
 
 from PIL import Image
+import io
 
 app=Flask(__name__)
 
@@ -33,9 +34,13 @@ def render_js(js):
 @app.route('/static/img/<width>px-<imgfile>')
 def render_thumb(width, imgfile):
 	try:
-		img=Image.open(pkg_resources.resource_filename('views', 'img/', imgfile))
-		img.thumbnail((width, width/(img.size[0]/img.size[1])))
-		return img
+		img=Image.open(pkg_resources.resource_filename('views', 'img/' + imgfile))
+		imgIO=io.BytesIO()
+		img.thumbnail((int(width), int(width)/(img.size[0]/img.size[1])))
+		img.save(imgIO, img.format)
+		img.close()
+		imgIO.seek(0)
+		return send_file(imgIO, mimetype='image/jpeg')
 	except IOError:
 		abort(404)
 
