@@ -6,6 +6,8 @@ import pkg_resources, socket
 import markdown
 from markdown.extensions.headerid import HeaderIdExtension
 
+from slimit import minify
+
 app=Flask(__name__)
 
 Sass(
@@ -15,6 +17,16 @@ Sass(
 	include_paths=[pkg_resources.resource_filename('views', 'scss')],
 	output_style='compressed'
 )
+
+@app.route('/static/js/<js>')
+def render_js(js):
+	try:
+		fd=open(pkg_resources.resource_filename('views', 'js/' + js), encoding='UTF-8')
+		out=minify(fd.read(), mangle=True, mangle_toplevel=True)
+		fd.close()
+		return out
+	except OSError:
+		abort(404)
 
 @app.route('/<page>')
 def get_page(page):
