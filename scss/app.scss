@@ -113,9 +113,11 @@ div.toc {
 }
 
 table {
-	border-spacing: 0;
-	border: 1px solid #19473E;
 	width: 100%;
+	border-collapse: collapse;
+}
+thead {
+	border: 1px solid #19473E;
 }
 td {
 	border: 1px solid #19473E;
