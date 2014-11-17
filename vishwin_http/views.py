@@ -11,20 +11,20 @@ from slimit import minify
 from PIL import Image
 import io
 
-app=Flask(__name__)
+from vishwin_http import app
 
 Sass(
 	{'app': 'scss/app.scss'},
 	app,
 	url_path='/static/css',
-	include_paths=[pkg_resources.resource_filename('views', 'scss')],
+	include_paths=[pkg_resources.resource_filename('vishwin_http.views', 'scss')],
 	output_style='compressed'
 )
 
 @app.route('/static/js/<js>')
 def render_js(js):
 	try:
-		fd=open(pkg_resources.resource_filename('views', 'js/' + js), encoding='UTF-8')
+		fd=open(pkg_resources.resource_filename('vishwin_http.views', 'js/' + js), encoding='UTF-8')
 		out=minify(fd.read(), mangle=True, mangle_toplevel=True)
 		fd.close()
 		return out
@@ -34,7 +34,7 @@ def render_js(js):
 @app.route('/static/img/<width>px-<imgfile>')
 def render_thumb(width, imgfile):
 	try:
-		img=Image.open(pkg_resources.resource_filename('views', 'img/' + imgfile))
+		img=Image.open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile))
 		imgIO=io.BytesIO()
 		img.thumbnail((int(width), int(width)/(img.size[0]/img.size[1])))
 		img.save(imgIO, img.format)
@@ -47,7 +47,7 @@ def render_thumb(width, imgfile):
 @app.route('/<page>')
 def get_page(page):
 	try:
-		md=open(pkg_resources.resource_filename('views', 'pages/' + page + '.md'), encoding='UTF-8')
+		md=open(pkg_resources.resource_filename('vishwin_http.views', 'pages/' + page + '.md'), encoding='UTF-8')
 		html=Markup(markdown.markdown(md.read(), output_format='html5', extensions=['markdown.extensions.attr_list', 'markdown.extensions.def_list', 'markdown.extensions.fenced_code', 'markdown.extensions.tables', 'markdown.extensions.toc', HeaderIdExtension(level=2)]))
 		md.close()
 		if page=='index':
@@ -59,6 +59,3 @@ def get_page(page):
 @app.route('/')
 def index():
 	return get_page('index')
-
-if __name__=='__main__':
-	app.run()
