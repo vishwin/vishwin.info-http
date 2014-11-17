@@ -15,4 +15,21 @@ Name                                          | Type             | Status | Comm
 # Fleet
 ## Big Red Hate Machine
 
+This is my road bike.
+
+Component        | Description
+---------------- | ------------------------------------------------------------------------------------------
+Frame            | Kinesis double-butted 7005 aluminium
+Fork             | Kinesis TaperBlade carbon, 1.125&nbsp;steerer, Cane Creek headset 1.125&nbsp;in threadless
+Crank spider     | Truvativ ISOFlow road double 130&nbsp;BCD
+Chainrings       | 39T Shimano Ultegra, 53T Shimano 105
+Pedals           | Shimano M520
+Front derailleur | Shimano 105
+Rear derailleur  | Shimano Tiagra 4600
+Shifters         | Shimano Tiagra 4600
+Cassette         | 12-28T or 11-25T (see below)
+Chain            | KMC DX-10
+
 ## Steelie
+
+This is my fixed-gear (with flip-flop hub) cyclocross bike.
