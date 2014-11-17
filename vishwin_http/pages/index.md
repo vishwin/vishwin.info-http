@@ -53,7 +53,7 @@
     /'\_   _/`\
     \___)=(___/
 ```
-* [projects](Projects)&nbsp;&ndash;&nbsp;mostly code I've written, though other things can sneak in
+* [software](Software)&nbsp;&ndash;&nbsp;hopefully stuff that runs, hopefully
 	* [git](http://cgit.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
 * [resume](static/resume.pdf)&nbsp;&ndash;&nbsp;in PDF format.
 
