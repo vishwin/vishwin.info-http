@@ -8,3 +8,5 @@ config.py
 *.wsgi
 # updater shell scripts
 *.sh
+# debug run script
+/rundebug.py
