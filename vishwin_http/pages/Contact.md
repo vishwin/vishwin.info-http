@@ -3,11 +3,11 @@ There are a few ways to contact me, but email is best.
 [TOC]
 
 # Email
-I have three email accounts I check on a regular basis, each for different purposes.
+I have 3.5&nbsp;email accounts I check on a regular basis, each for different purposes.
 
 There's my Penn State account, which is intended for academic use only. [Initiate academic communication here](/JavaScript){: class="amail" }.
 
-There's an account for business and engineering purposes. This includes most technical communication, job-related communication and other formal business, unless such is academically-related. [Initiate business and engineering communication here](/JavaScript){: class="bmail" }.
+There's an account for business and engineering purposes. This includes most technical communication, job-related communication and other formal business, unless such is academically-related. [Initiate business and engineering communication here](/JavaScript){: class="bmail" }; [send patches for my software here](/JavaScript){: class="patchmail" }.
 
 And there's my personal account. Everything other than the aforementioned goes here, including most bills. [Personal communication goes here](/JavaScript){: class="pmail" }.
 
