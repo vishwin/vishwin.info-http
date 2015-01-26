@@ -84,4 +84,3 @@
 * [eccc](http://collegiatecycling.org/eccc/)&nbsp;&ndash;&nbsp;Eastern Collegiate Cycling Conference
 * [acm.psu](http://acm.psu.edu/)&nbsp;&ndash;&nbsp;Penn State ACM (see below)
 * [acm](http://www.acm.org/)&nbsp;&ndash;&nbsp;Association for Computing Machinery (ACM)
-* [mlh](http://mlh.io/)&nbsp;&ndash;&nbsp;Major League Hacking
