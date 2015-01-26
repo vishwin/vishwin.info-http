@@ -18,9 +18,12 @@ I would prefer that when sending mail, that you send in _plain text_. No, seriou
 Unlike most Internet users as of this writing, I stay away from managing my email with webmail software (although I have a Google Mail account, I don't read anything using its webmail interface) and stick to good ol' mail clients, specifically [Mozilla Thunderbird](http://www.mozilla.org/thunderbird) and [``mutt``](http://www.mutt.org/) on the desktop and [K-9 Mail](https://code.google.com/p/k9mail/) on mobile. So when I need to read my mail in the terminal, and an improperly formatted HTML message comes up, it looks extremely shitty and I most likely won't acknowledge it.
 
 # Social media
+Follow me on [twitter](https://twitter.com/vishwin8).
+
+I also have a LinkedIn, but you'll need to find that on your own. Same goes with certain other profiles of mine.
 
 # Miscellany
-I hang out on [freenode](http://freenode.net/) IRC as my schedule permits.
+I hang out on [freenode](http://freenode.net/) IRC as my schedule permits. I appear as if I'm always connected, but that's because of this [awesome piece of software](http://znc.in/).
 
 # Snail mail
 My postal address changes quite frequently. But even if it doesn't, I'm not publicly posting it. If you have good cause for needing to know such information, particularly for sending me stuff, [email me](#email).
