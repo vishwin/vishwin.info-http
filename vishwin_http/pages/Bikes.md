@@ -7,7 +7,7 @@ Because I enjoy looking at transit authority fleet assignment sheets, I may as w
 
 Name                                          | Type             | Status | Comments
 --------------------------------------------- | ---------------- | ------ | --------------------------------------------------------
-[Big Red Hate Machine](#big-red-hate-machine) | Road             | In     | 
+[Big Red Hate Machine](#big-red-hate-machine) | Road             | Out    | Bath scheduled soon; dirt and surface rust (chain) levels above acceptable levels
 [Steelie](#steelie)                           | Fixed cyclocross | In     | Gets coat of Boeshield T-9 on chain every 1.5&nbsp;weeks
 
 # Fleet
