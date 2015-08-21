@@ -1,5 +1,5 @@
 #!/usr/bin/python3.4
-from flask import Flask, render_template, url_for, Markup, abort, send_file
+from flask import Flask, render_template, Response, url_for, Markup, abort, send_file
 from flask.ext.libsass import *
 import pkg_resources, socket
 
@@ -27,7 +27,7 @@ def render_js(js):
 		fd=open(pkg_resources.resource_filename('vishwin_http.views', 'js/' + js), encoding='UTF-8')
 		out=minify(fd.read(), mangle=True, mangle_toplevel=True)
 		fd.close()
-		return out
+		return Response(response=out, mimetype='text/javascript')
 	except OSError:
 		abort(404)
 
