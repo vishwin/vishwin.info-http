@@ -54,6 +54,7 @@
     \___)=(___/
 ```
 * [projects](Projects)&nbsp;&ndash;&nbsp;software and some hardware that works and runs, hopefully
+	* [hackathons](Hackathons)&nbsp;&ndash;&nbsp;ad-hoc sprints to make some software and hardware
 	* [git](http://cgit.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
 * [resume](static/resume.pdf)&nbsp;&ndash;&nbsp;in PDF format.
 
