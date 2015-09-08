@@ -31,10 +31,10 @@ def render_js(js):
 	except OSError:
 		abort(404)
 
-@app.route('/static/img/<width>px-<imgfile>')
-def render_thumb(width, imgfile):
+@app.route('/static/img/<width>px-<imgfile>.<ext>')
+def render_thumb(width, imgfile, ext):
 	try:
-		img=Image.open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile))
+		img=Image.open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile + '.' + ext))
 		imgIO=io.BytesIO()
 		img.thumbnail((int(width), int(width)/(img.size[0]/img.size[1])))
 		img.save(imgIO, img.format)
