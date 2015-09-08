@@ -12,6 +12,7 @@ from PIL import Image
 import io
 
 from vishwin_http import app
+from vishwin_http.utils import *
 
 Sass(
 	{'app': 'scss/app.scss'},
@@ -31,6 +32,13 @@ def render_js(js):
 	except OSError:
 		abort(404)
 
+@app.route('/static/img/<imgfile>.<ext>')
+def return_img(imgfile, ext):
+	try:
+		return send_file(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile + '.' + ext), mimetype=img_mimetype(ext))
+	except IOError:
+		abort(404)
+
 @app.route('/static/img/<width>px-<imgfile>.<ext>')
 def render_thumb(width, imgfile, ext):
 	try:
@@ -40,7 +48,7 @@ def render_thumb(width, imgfile, ext):
 		img.save(imgIO, img.format)
 		img.close()
 		imgIO.seek(0)
-		return send_file(imgIO, mimetype='image/jpeg')
+		return send_file(imgIO, mimetype=img_mimetype(ext))
 	except IOError:
 		abort(404)
 
