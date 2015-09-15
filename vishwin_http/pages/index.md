@@ -54,7 +54,6 @@
     \___)=(___/
 ```
 * [projects](Projects)&nbsp;&ndash;&nbsp;software and some hardware that works and runs, hopefully
-	* [hackathons](Hackathons)&nbsp;&ndash;&nbsp;ad-hoc sprints to make some software and hardware
 	* [git](http://cgit.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
 * [resume](static/resume.pdf)&nbsp;&ndash;&nbsp;in PDF format.
 
@@ -83,5 +82,6 @@
 ```
 * [psucycling](http://clubs.psu.edu/up/bike/)&nbsp;&ndash;&nbsp;Penn State Cycling Club
 * [eccc](http://collegiatecycling.org/eccc/)&nbsp;&ndash;&nbsp;Eastern Collegiate Cycling Conference
+* [hackathons](Hackathons)&nbsp;&ndash;&nbsp;ad-hoc sprints to make some software and hardware
 * [acm.psu](http://acm.psu.edu/)&nbsp;&ndash;&nbsp;Penn State ACM (see below)
 * [acm](http://www.acm.org/)&nbsp;&ndash;&nbsp;Association for Computing Machinery (ACM)

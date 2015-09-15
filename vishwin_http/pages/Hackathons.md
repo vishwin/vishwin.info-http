@@ -9,7 +9,7 @@ Hackathons denoted in _italics_ are tentative. Of course, when there are two eve
 * 4&ndash;6&nbsp;September: [PennApps](http://2015f.pennapps.com) (University of Pennsylvania, Philadelphia, PA)
 * 11&ndash;13&nbsp;September: [MHacks](http://mhacks.org) (University of Michigan, Ann Arbor, MI)
 * 25&ndash;27&nbsp;September: [_HackGT_](http://www.hackgt.com/) (Georgia Institute of Technology, Atlanta, GA)
-* 9&ndash;11&nbsp;October: [_HackNC_](http://hacknc.com/) (University of North Carolina, Chapel Hill, NC) or [Kent Hack Enough](https://khe.io/) (Kent State University, Kent, OH)
+* 9&ndash;11&nbsp;October: [HackNC](http://hacknc.com/) (University of North Carolina, Chapel Hill, NC) or [Kent Hack Enough](https://khe.io/) (Kent State University, Kent, OH)
 * 23&ndash;25&nbsp;October: [_HackUMass_](http://hackumass.com) (University of Massachusetts, Amherst, MA)
 * 6&ndash;8&nbsp;November: [HackPSU](http://hackpsu.org) (internal only) (Pennsylvania State University, University Park, PA) or [_YHack_](http://www.yhack.org) (Yale University, New Haven, CT)
 * 21&ndash;22&nbsp;November: [_WildHacks_](http://wildhacks.org/) (Northwestern University, Evanston, IL)
@@ -19,6 +19,9 @@ Hackathons denoted in _italics_ are tentative. Of course, when there are two eve
 Unless otherwise noted, if the source code is available, it is not open source unless the other team members agreed to the code released that way.
 
 In reverse chronological order:
+
+## MHacks Fall&nbsp;2015
+_11&ndash;13&nbsp;September 2015, University of Michigan, Ann Arbor, MI_
 
 ## PennApps Fall&nbsp;2015
 _4&ndash;6&nbsp;September 2015, University of Pennsylvania (Wells Fargo Center), Philadelphia, PA_
@@ -62,3 +65,5 @@ _6&ndash;8&nbsp;September 2013, University of Pennsylvania, Philadelphia, PA_
 _22&ndash;23&nbsp;March 2013, Pennsylvania State University, University Park, PA_
 
 This was my first ever hackathon, back when I had no concept of what one was nor the point of them. Being a freshman didn't help either, but the four of us, consisting of a (then-)senior, another ACM member whose identity escapes me and a same-year classmate (who's the president of our ACM chapter as of this writing) still managed to create a half-working PHP something. Apparently everybody who submitted something presented to the whole audience in front; the hackathon at that point was not big enough for (or maybe the organisers never thought of) an expo before final demos.
+
+This also holds the dubious distinction of the only time I've ever attended my own school's hackathon. Each iteration, including this one, has fallen during the collegiate road cycle racing season. I, along with most of the club who did not compete in the highest level of racing, opted to stay home this weekend (the race weekend itself was salvaged last-minute by Bard College hosting only a criterium on their campus), allowing me to attend my first hackathon at home!
