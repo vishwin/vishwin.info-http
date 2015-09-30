@@ -8,8 +8,8 @@ Hackathons denoted in _italics_ are tentative. Of course, when there are two eve
 
 * 4&ndash;6&nbsp;September: [PennApps](http://2015f.pennapps.com) (University of Pennsylvania, Philadelphia, PA)
 * 11&ndash;13&nbsp;September: [MHacks](http://mhacks.org) (University of Michigan, Ann Arbor, MI)
-* 25&ndash;27&nbsp;September: [_HackGT_](http://www.hackgt.com/) (Georgia Institute of Technology, Atlanta, GA)
-* 9&ndash;11&nbsp;October: [HackNC](http://hacknc.com/) (University of North Carolina, Chapel Hill, NC) or [Kent Hack Enough](https://khe.io/) (Kent State University, Kent, OH)
+* 25&ndash;27&nbsp;September: [HackGT](http://www.hackgt.com/) (Georgia Institute of Technology, Atlanta, GA)
+* 9&ndash;11&nbsp;October: [Kent Hack Enough](https://khe.io/) (Kent State University, Kent, OH)
 * 23&ndash;25&nbsp;October: [_HackUMass_](http://hackumass.com) (University of Massachusetts, Amherst, MA)
 * 6&ndash;8&nbsp;November: [HackPSU](http://hackpsu.org) (internal only) (Pennsylvania State University, University Park, PA) or [_YHack_](http://www.yhack.org) (Yale University, New Haven, CT)
 * 21&ndash;22&nbsp;November: [_WildHacks_](http://wildhacks.org/) (Northwestern University, Evanston, IL)
@@ -19,6 +19,9 @@ Hackathons denoted in _italics_ are tentative. Of course, when there are two eve
 Unless otherwise noted, if the source code is available, it is not open source unless the other team members agreed to the code released that way.
 
 In reverse chronological order:
+
+## HackGT&nbsp;2015
+_25&ndash;27&nbsp;September 2015, Georgia Institute of Technology, Atlanta, GA_
 
 ## MHacks Fall&nbsp;2015
 _11&ndash;13&nbsp;September 2015, University of Michigan, Ann Arbor, MI_
