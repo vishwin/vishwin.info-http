@@ -10,7 +10,7 @@ Hackathons denoted in _italics_ are tentative. Of course, when there are two eve
 * 11&ndash;13&nbsp;September: [MHacks](http://mhacks.org) (University of Michigan, Ann Arbor, MI)
 * 25&ndash;27&nbsp;September: [HackGT](http://www.hackgt.com/) (Georgia Institute of Technology, Atlanta, GA)
 * 9&ndash;11&nbsp;October: [Kent Hack Enough](https://khe.io/) (Kent State University, Kent, OH)
-* 23&ndash;25&nbsp;October: [_HackUMass_](http://hackumass.com) (University of Massachusetts, Amherst, MA)
+* 23&ndash;25&nbsp;October: [HackUMass](http://hackumass.com) (University of Massachusetts, Amherst, MA)
 * 6&ndash;8&nbsp;November: [HackPSU](http://hackpsu.org) (internal only) (Pennsylvania State University, University Park, PA) or [_YHack_](http://www.yhack.org) (Yale University, New Haven, CT)
 * 21&ndash;22&nbsp;November: [_WildHacks_](http://wildhacks.org/) (Northwestern University, Evanston, IL)
 
