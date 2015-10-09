@@ -1,4 +1,4 @@
-#!/usr/bin/python3.4
+#!/usr/bin/python3
 from vishwin_http import app
 
 if __name__=="__main__":
