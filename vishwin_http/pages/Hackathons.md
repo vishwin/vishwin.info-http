@@ -20,6 +20,9 @@ Unless otherwise noted, if the source code is available, it is not open source u
 
 In reverse chronological order:
 
+## Kent Hack Enough&nbsp;2015
+_9&ndash;11&nbsp;October 2015, Kent State University, Kent, OH_
+
 ## HackGT&nbsp;2015
 _25&ndash;27&nbsp;September 2015, Georgia Institute of Technology, Atlanta, GA_
 
