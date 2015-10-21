@@ -10,6 +10,10 @@ It has [its own page](Hackathons).
 
 # Penn State stuff
 
+## Talks
+
+* **[Hackathon prep for ACM](/static/ACM_Hackathon_prep.pdf)** (PDF, originally a Google Doc): given twice, this introduces the ACM membership to the wonders of hackathons and how things can be built with prior knowledge.
+
 ## Activities
 
 * **[EON 2014 website](http://www.engr.psu.edu/eon/2014/)** ([source](http://cgit.vishwin.info/PSU-EON-2014-website.git/)): the design, created with [Zurb Foundation](http://foundation.zurb.com/) and the Python page compiler. Licensed under Apache Licence&nbsp;2.0.
