@@ -12,6 +12,7 @@ Hackathons denoted in _italics_ are tentative. Of course, when there are two eve
 * 9&ndash;11&nbsp;October: [Kent Hack Enough](https://khe.io/) (Kent State University, Kent, OH)
 * 23&ndash;25&nbsp;October: [HackUMass](http://hackumass.com) (University of Massachusetts, Amherst, MA)
 * 6&ndash;8&nbsp;November: [YHack](http://www.yhack.org) (Yale University, New Haven, CT)
+* 14&ndash;15&nbsp;November: [_OHI/O_](http://hack.osu.edu/) (The Ohio State University, Columbus, OH)
 * 21&ndash;22&nbsp;November: [_WildHacks_](http://wildhacks.org/) (Northwestern University, Evanston, IL)
 
 # Past events
