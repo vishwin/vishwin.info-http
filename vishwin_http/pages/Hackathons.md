@@ -21,6 +21,11 @@ Unless otherwise noted, if the source code is available, it is not open source u
 
 In reverse chronological order:
 
+## HackUMass&nbsp;2015
+_23&ndash;25&nbsp;October 2015, University of Massachusetts Amherst, Amherst, MA_
+
+We made a rogue, drive-away alarm clock.
+
 ## Kent Hack Enough&nbsp;2015
 _9&ndash;11&nbsp;October 2015, Kent State University, Kent, OH_
 
