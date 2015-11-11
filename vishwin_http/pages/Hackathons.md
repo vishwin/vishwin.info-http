@@ -20,6 +20,11 @@ Unless otherwise noted, if the source code is available, it is not open source u
 
 In reverse chronological order:
 
+## YHack&nbsp;2015
+_6&ndash;8&nbsp;November 2015, Yale University, New Haven, CT_
+
+We built a car that picked up and drove shoes to wheelchair level for disabled veterans.
+
 ## HackUMass&nbsp;2015
 _23&ndash;25&nbsp;October 2015, University of Massachusetts Amherst, Amherst, MA_
 
@@ -28,14 +33,22 @@ We made a rogue, drive-away alarm clock.
 ## Kent Hack Enough&nbsp;2015
 _9&ndash;11&nbsp;October 2015, Kent State University, Kent, OH_
 
+I built an early-warning detection system for nearsightedness.
+
 ## HackGT&nbsp;2015
 _25&ndash;27&nbsp;September 2015, Georgia Institute of Technology, Atlanta, GA_
+
+We made a coffee machine/mixer featuring three different roasts of ground coffee. Combining them, specifically Dunkin Donuts French Roast, Starbucks Sumatra and Community Coffee New Orleans Blend with Chicory, resulted in the HackGT Special. Drip-type coffee machine controlled by a Flask app.
 
 ## MHacks Fall&nbsp;2015
 _11&ndash;13&nbsp;September 2015, University of Michigan, Ann Arbor, MI_
 
+We attempted a location via sound triangulation using fast Fourier transform.
+
 ## PennApps Fall&nbsp;2015
 _4&ndash;6&nbsp;September 2015, University of Pennsylvania (Wells Fargo Center), Philadelphia, PA_
+
+We attempted a drowsy, drunk or otherwise distracted driving detection system with a Leap Motion and Myo among other things.
 
 ## HackIllinois&nbsp;2015
 _27&nbsp;February&ndash;1&nbsp;March 2015, University of Illinois, Urbana, IL_
