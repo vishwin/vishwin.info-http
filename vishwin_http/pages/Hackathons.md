@@ -53,7 +53,7 @@ We attempted a drowsy, drunk or otherwise distracted driving detection system wi
 ## HackIllinois&nbsp;2015
 _27&nbsp;February&ndash;1&nbsp;March 2015, University of Illinois, Urbana, IL_
 
-**[(Dr Dre's) Mix Machine](http://cgit.vishwin.info/mixmachinebydre.git/)** ([DevPost](http://devpost.com/software/mix-machine)): a machine learning drink mixer that didn't actually mix drinks due to a lack of a liquid pump available. Used a Raspberry Pi&nbsp;2 and a bunch of servos; apparently the two don't mix too well (pun intended).
+**[(Dr Dre's) Mix Machine](https://git.vishwin.info/mixmachinebydre.git/)** ([DevPost](http://devpost.com/software/mix-machine)): a machine learning drink mixer that didn't actually mix drinks due to a lack of a liquid pump available. Used a Raspberry Pi&nbsp;2 and a bunch of servos; apparently the two don't mix too well (pun intended).
 
 ## VTHacks&nbsp;2015
 _6&ndash;8&nbsp;February 2015, Virginia Polytechnic Institute and State University, Blacksburg, VA_
@@ -68,22 +68,22 @@ _16&ndash;18&nbsp;January 2015, University of Pennsylvania, Philadelphia, PA_
 ## YHack&nbsp;2014
 _31&nbsp;October&ndash;2&nbsp;November 2014, Yale University, New Haven, CT_
 
-**[YoLunch.me](http://cgit.vishwin.info/YoLunch.git/)** ([DevPost](http://devpost.com/software/yolunch-me)): a [Yo](http://justyo.co) "service" that uses simple yes/no questions and Facebook integration to help users reconnect with their weaker social ties. Worked on the backend using the Yo API, Flask microframework, Facebook API and MongoDB.
+**[YoLunch.me](https://git.vishwin.info/YoLunch.git/)** ([DevPost](http://devpost.com/software/yolunch-me)): a [Yo](http://justyo.co) "service" that uses simple yes/no questions and Facebook integration to help users reconnect with their weaker social ties. Worked on the backend using the Yo API, Flask microframework, Facebook API and MongoDB.
 
 ## Unhackathon&nbsp;2014
 _20&ndash;21&nbsp;September 2014, Stony Brook University (AlleyNYC), Stony Brook (New York), NY_
 
-**[Coffeestop](http://cgit.vishwin.info/coffeestop.git/)** ([DevPost](http://devpost.com/software/coffeestop)): a webapp, written in Python using the Flask microframework, Python GPX library, Yelp API, Google Maps API and ordr.in API, to find coffee shops, cafés, convenience stores, etc based on inputted GPS track. Optionally, users can order their food/drink for serving just-in-time upon arrival.
+**[Coffeestop](https://git.vishwin.info/coffeestop.git/)** ([DevPost](http://devpost.com/software/coffeestop)): a webapp, written in Python using the Flask microframework, Python GPX library, Yelp API, Google Maps API and ordr.in API, to find coffee shops, cafés, convenience stores, etc based on inputted GPS track. Optionally, users can order their food/drink for serving just-in-time upon arrival.
 
 ## PennApps Spring&nbsp;2014
 _14&ndash;16&nbsp;February 2014, University of Pennsylvania, Philadelphia, PA_
 
-**[Wikitongues](http://cgit.vishwin.info/flask-wikitongues.git/)** ([DevPost](http://devpost.com/software/wikitongues)): used the Flask microframework, YouTube API and MongoDB to create a purpose-built language video previewer and uploader
+**[Wikitongues](https://git.vishwin.info/flask-wikitongues.git/)** ([DevPost](http://devpost.com/software/wikitongues)): used the Flask microframework, YouTube API and MongoDB to create a purpose-built language video previewer and uploader
 
 ## PennApps Fall&nbsp;2013
 _6&ndash;8&nbsp;September 2013, University of Pennsylvania, Philadelphia, PA_
 
-**[MerpIt](http://cgit.vishwin.info/merpIt.git/)** ([DevPost](http://devpost.com/software/merpit)): used the Flask microframework, Venmo API, MySQL and Twitter Bootstrap for a college student manual labour exchange board
+**[MerpIt](https://git.vishwin.info/merpIt.git/)** ([DevPost](http://devpost.com/software/merpit)): used the Flask microframework, Venmo API, MySQL and Twitter Bootstrap for a college student manual labour exchange board
 
 ## HackPSU&nbsp;2013
 _22&ndash;23&nbsp;March 2013, Pennsylvania State University, University Park, PA_

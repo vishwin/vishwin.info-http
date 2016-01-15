@@ -9,7 +9,7 @@ Unless otherwise stated, I write all text on this site, which is licensed under 
 Self-created images and pictures are generally licensed under the [Creative Commons Attribution&nbsp;4.0 International Licence](http://creativecommons.org/licenses/by/4.0/). Camera raw formats are licensed the same as text I write.
 
 ## Website source code
-The [source code](http://cgit.vishwin.info/http.git/) is licensed under the [Mozilla Public Licence&nbsp;2.0](https://www.mozilla.org/MPL/2.0/) (MPL).
+The [source code](https://git.vishwin.info/http.git/) is licensed under the [Mozilla Public Licence&nbsp;2.0](https://www.mozilla.org/MPL/2.0/) (MPL).
 
 # External software
 This site links many pieces of open source software:
