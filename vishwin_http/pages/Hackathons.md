@@ -6,19 +6,22 @@ Hackathons have become a pretty big part of my academic life these days. They ar
 
 Hackathons denoted in _italics_ are tentative. Of course, when there are two events on the same weekend, I am eventually picking only one; such a picking will have happened when only one event remains for a particular date.
 
-* 4&ndash;6&nbsp;September: [PennApps](http://2015f.pennapps.com) (University of Pennsylvania, Philadelphia, PA)
-* 11&ndash;13&nbsp;September: [MHacks](http://mhacks.org) (University of Michigan, Ann Arbor, MI)
-* 25&ndash;27&nbsp;September: [HackGT](http://www.hackgt.com/) (Georgia Institute of Technology, Atlanta, GA)
-* 9&ndash;11&nbsp;October: [Kent Hack Enough](https://khe.io/) (Kent State University, Kent, OH)
-* 23&ndash;25&nbsp;October: [HackUMass](http://hackumass.com) (University of Massachusetts, Amherst, MA)
-* 6&ndash;8&nbsp;November: [YHack](http://www.yhack.org) (Yale University, New Haven, CT)
-* 14&ndash;15&nbsp;November: [OHI/O](http://hack.osu.edu/) (The Ohio State University, Columbus, OH)
+* 16&ndash;17&nbsp;January: [DragonHacks](http://dragonhacks.io/) (Drexel University, Philadelphia, PA)
+* 29&ndash;31&nbsp;January: [_Fashion/Tech Hackathon_](http://www.fashiontechhackathon.com/) (Kent State University, Kent, OH)
+* 19&ndash;21&nbsp;February: [_MHacks_](http://mhacks.org/) (University of Michigan, Ann Arbor, MI)
+* 5&ndash;6&nbsp;March: [_BrickHack_](https://brickhack.io/) (Rochester Institute of Technology, Rochester, NY)
 
 # Past events
 
 Unless otherwise noted, if the source code is available, it is not open source unless the other team members agreed to the code released that way.
 
 In reverse chronological order:
+
+## DragonHacks&nbsp;2016
+_16&ndash;17&nbsp;January 2016, Drexel University, Philadelphia, PA_
+
+## OHI/O&nbsp;2015
+_14&ndash;15&nbsp;November 2015, The Ohio State University, Columbus, OH_
 
 ## YHack&nbsp;2015
 _6&ndash;8&nbsp;November 2015, Yale University, New Haven, CT_
