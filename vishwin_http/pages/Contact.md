@@ -25,5 +25,7 @@ I also have a LinkedIn, but you'll need to find that on your own. Same goes with
 # Miscellany
 I hang out on [freenode](http://freenode.net/) IRC as my schedule permits. I appear as if I'm always connected, but that's because of this [awesome piece of software](http://znc.in/).
 
-# Snail mail
+# Snail mail and telephone
 My postal address changes quite frequently. But even if it doesn't, I'm not publicly posting it. If you have good cause for needing to know such information, particularly for sending me stuff, [email me](#email).
+
+The same ground rule applies to the phone, albeit my digits rarely change, if ever. Actual telephone and SMS usage to me are almost solely restricted to making relatively short-term plans in a hurry, or to have a real conversation that eventually results in (hopefully) quick action when meeting in-person is not an option.
