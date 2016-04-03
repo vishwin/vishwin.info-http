@@ -1,4 +1,4 @@
-Hackathons have become a pretty big part of my academic life these days. They are like exercise, although mostly mental and actually have the ability to disrupt (or better yet, enhance) the world.
+Hackathons have become a pretty big part of my academic life these days. They are like exercise, although mostly mental and actually have the ability to disrupt (or better yet, enhance) the world. The same ground rules apply from the rest of my [Projects](/Projects).
 
 [TOC]
 
@@ -7,15 +7,24 @@ Hackathons have become a pretty big part of my academic life these days. They ar
 Hackathons denoted in _italics_ are tentative. Of course, when there are two events on the same weekend, I am eventually picking only one; such a picking will have happened when only one event remains for a particular date.
 
 * 16&ndash;17&nbsp;January: [DragonHacks](http://dragonhacks.io/) (Drexel University, Philadelphia, PA)
-* 29&ndash;31&nbsp;January: [_Fashion/Tech Hackathon_](http://www.fashiontechhackathon.com/) (Kent State University, Kent, OH)
-* 19&ndash;21&nbsp;February: [_MHacks_](http://mhacks.org/) (University of Michigan, Ann Arbor, MI)
-* 5&ndash;6&nbsp;March: [_BrickHack_](https://brickhack.io/) (Rochester Institute of Technology, Rochester, NY)
+* 29&ndash;31&nbsp;January: [Fashion/Tech Hackathon](http://www.fashiontechhackathon.com/) (Kent State University, Kent, OH)
+* 19&ndash;21&nbsp;February: [MHacks](http://mhacks.org/) (University of Michigan, Ann Arbor, MI)
+* 5&ndash;6&nbsp;March: [BrickHack](https://brickhack.io/) (Rochester Institute of Technology, Rochester, NY)
 
 # Past events
 
 Unless otherwise noted, if the source code is available, it is not open source unless the other team members agreed to the code released that way.
 
 In reverse chronological order:
+
+## BrickHack&nbsp;2016
+_5&ndash;6&nbsp;March 2016, Rochester Institute of Technology, Rochester, NY_
+
+## MHacks&nbsp;Refactor
+_19&ndash;21&nbsp;February 2016, University of Michigan, Ann Arbor, MI_
+
+## Fashion/Tech Hackathon&nbsp;2016
+_29&ndash;31&nbsp;January 2016, Kent State University, Kent, OH_
 
 ## DragonHacks&nbsp;2016
 _16&ndash;17&nbsp;January 2016, Drexel University, Philadelphia, PA_
