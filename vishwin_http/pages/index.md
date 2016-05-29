@@ -86,18 +86,18 @@
 
 # archive/
 ```
-			_-^--^=-_
-		   _.-^^          -~_
-		_--                  --_
-	       <                        >)
-	       |                         |
-		\._                   _./
-		   ```--. . , ; .--'''
-			 | |   |
-		      .-=||  | |=-.
-		      `-=#$%&%$#=-'
-			 | ;  :|
-		_____.,-#%&$@%#&#~,._____
+                        _-^--^=-_
+                   _.-^^          -~_
+                _--                  --_
+               <                        >)
+               |                         |
+                \._                   _./
+                   ```--. . , ; .--'''
+                         | |   |
+                      .-=||  | |=-.
+                      `-=#$%&%$#=-'
+                         | ;  :|
+                _____.,-#%&$@%#&#~,._____
 ```
 * [psucycling](http://clubs.psu.edu/up/bike/)&nbsp;&ndash;&nbsp;Penn State Cycling Club
 * [eccc](http://collegiatecycling.org/eccc/)&nbsp;&ndash;&nbsp;Eastern Collegiate Cycling Conference
