@@ -80,8 +80,25 @@
      %.         z*"                      ^%.        .r"
         "*==*""                             ^"*==*""
 ```
+* [hackathons](Hackathons)&nbsp;&ndash;&nbsp;ad-hoc sprints to break the rules and possibly porcelain
+* [qcwcycling](http://qcwcycling.org/)&nbsp;&ndash;&nbsp;QCW Cycling
+* [acm](http://www.acm.org/)&nbsp;&ndash;&nbsp;Association for Computing Machinery (ACM)
+
+# archive/
+```
+			_-^--^=-_
+		   _.-^^          -~_
+		_--                  --_
+	       <                        >)
+	       |                         |
+		\._                   _./
+		   ```--. . , ; .--'''
+			 | |   |
+		      .-=||  | |=-.
+		      `-=#$%&%$#=-'
+			 | ;  :|
+		_____.,-#%&$@%#&#~,._____
+```
 * [psucycling](http://clubs.psu.edu/up/bike/)&nbsp;&ndash;&nbsp;Penn State Cycling Club
 * [eccc](http://collegiatecycling.org/eccc/)&nbsp;&ndash;&nbsp;Eastern Collegiate Cycling Conference
-* [hackathons](Hackathons)&nbsp;&ndash;&nbsp;ad-hoc sprints to break the rules and possibly porcelain
-* [acm.psu](http://acm.psu.edu/)&nbsp;&ndash;&nbsp;Penn State ACM (see below)
-* [acm](http://www.acm.org/)&nbsp;&ndash;&nbsp;Association for Computing Machinery (ACM)
+* [acm.psu](http://acm.psu.edu/)&nbsp;&ndash;&nbsp;Penn State ACM
