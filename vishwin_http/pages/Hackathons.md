@@ -1,15 +1,10 @@
-Hackathons have become a pretty big part of my academic life these days. They are like exercise, although mostly mental and actually have the ability to disrupt (or better yet, enhance) the world. The same ground rules apply from the rest of my [Projects](/Projects).
+Hackathons have become a pretty big part of my life these days. They are like exercise, although mostly mental and actually have the ability to disrupt (or better yet, enhance) the world. The same ground rules apply from the rest of my [Projects](/Projects).
 
 [TOC]
 
 # Schedule
 
-Hackathons denoted in _italics_ are tentative. Of course, when there are two events on the same weekend, I am eventually picking only one; such a picking will have happened when only one event remains for a particular date.
-
-* 16&ndash;17&nbsp;January: [DragonHacks](http://dragonhacks.io/) (Drexel University, Philadelphia, PA)
-* 29&ndash;31&nbsp;January: [Fashion/Tech Hackathon](http://www.fashiontechhackathon.com/) (Kent State University, Kent, OH)
-* 19&ndash;21&nbsp;February: [MHacks](http://mhacks.org/) (University of Michigan, Ann Arbor, MI)
-* 5&ndash;6&nbsp;March: [BrickHack](https://brickhack.io/) (Rochester Institute of Technology, Rochester, NY)
+It's summer! I'm probably out riding bikes right now.
 
 # Past events
 
@@ -35,7 +30,7 @@ _14&ndash;15&nbsp;November 2015, The Ohio State University, Columbus, OH_
 ## YHack&nbsp;2015
 _6&ndash;8&nbsp;November 2015, Yale University, New Haven, CT_
 
-We built a car that picked up and drove shoes to wheelchair level for disabled veterans.
+We built a car that picked up and drove shoes to wheelchair level for disabled veterans. It fell apart before it could pick up its first shoe.
 
 ## HackUMass&nbsp;2015
 _23&ndash;25&nbsp;October 2015, University of Massachusetts Amherst, Amherst, MA_
