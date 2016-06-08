@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from flask import Flask, render_template, Response, url_for, Markup, abort, send_file
-from flask.ext.libsass import *
+from flask_libsass import *
 import pkg_resources
 
 import markdown
