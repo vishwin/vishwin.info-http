@@ -1,15 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic|Roboto+Slab:300,400,700|Roboto+Condensed:300,400,700,300italic,400italic,700italic|Ubuntu+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic|Roboto+Slab:300,400,700|Roboto+Condensed:300,400,700,300italic,400italic,700italic|Ubuntu+Condensed|Oxygen:300,400,700);
 @import url(https://code.cdn.mozilla.net/fonts/fira.css);
 
 body {
 	background-color: #000808;
 	color: #CCFFCC;
 	font-size: 11pt;
-	font-family: "Fira Sans", sans-serif;
+	font-family: Oxygen, sans-serif;
+	font-weight: 400;
 	max-width: 640px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
+}
+
+strong {
+	font-weight: 700;
 }
 
 pre, code, samp, kbd {
@@ -18,6 +23,7 @@ pre, code, samp, kbd {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
+	font-family: "Fira Sans", sans-serif;
 }
 
 a {
@@ -93,6 +99,7 @@ img {
 
 div.toc {
 	font-size: 0.8em;
+	font-weight: 300;
 	background-color: #000E0E;
 	display: table;
 	max-width: 640px;
