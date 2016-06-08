@@ -25,9 +25,12 @@ Sass(
 @app.route('/static/js/<js>')
 def render_js(js):
 	try:
-		fd=open(pkg_resources.resource_filename('vishwin_http.views', 'js/' + js), encoding='UTF-8')
-		out=minify(fd.read(), mangle=True, mangle_toplevel=True)
-		fd.close()
+		out=cache.get(js)
+		if out is None:
+			fd=open(pkg_resources.resource_filename('vishwin_http.views', 'js/' + js), encoding='UTF-8')
+			out=minify(fd.read(), mangle=True, mangle_toplevel=True)
+			fd.close()
+			cache.set(js, out)
 		return Response(response=out, mimetype='text/javascript')
 	except OSError:
 		abort(404)
