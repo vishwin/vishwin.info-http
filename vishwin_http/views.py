@@ -11,7 +11,7 @@ from slimit import minify
 from PIL import Image
 import io
 
-from vishwin_http import app
+from vishwin_http import app, cache
 from vishwin_http.utils import *
 
 Sass(
