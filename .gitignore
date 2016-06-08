@@ -1,12 +1,16 @@
 *.pyc
+
 # sensitive information:
 config.py
+
 # crap tmp files left by GUI text editors:
 *~
+
 # OS X crap
 .DS_Store
+
+# the WSGI executable
 *.wsgi
+
 # updater shell scripts
 *.sh
-# debug run script
-/rundebug.py
