@@ -15,12 +15,16 @@ from vishwin_http import app
 from vishwin_http.utils import *
 
 Sass(
-	{'app': 'scss/app.scss'},
+	{'app': 'scss/app.scss', 'bsod': 'scss/bsod.scss'},
 	app,
 	url_path='/static/css',
 	include_paths=[pkg_resources.resource_filename('vishwin_http.views', 'scss')],
 	output_style='compressed'
 )
+
+@app.errorhandler(404)
+def error_404(error):
+	return render_template('404.html'), 404
 
 @app.route('/static/js/<js>')
 def render_js(js):
