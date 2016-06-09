@@ -14,7 +14,7 @@ It has [its own page](Hackathons).
 
 ## Talks
 
-* **[Hackathon prep for ACM (2016)](/static/ACM_Hackathon_prep_2016.pdf)** (PDF, with LaTeX source): it's time to go out of your comfort zone Penn State ACM. Way out.
+* **[Hackathon prep for ACM (2016)](/static/ACM_Hackathon_prep_2016.pdf)** (PDF, with [LaTeX source](/static/ACM_Hackathon_prep_2016.tex)): it's time to go out of your comfort zone Penn State ACM. Way out.
 * **[Hackathon prep for ACM (2015)](/static/ACM_Hackathon_prep.pdf)** (PDF, originally a Google Doc): given twice, this introduces the Penn State ACM membership to the wonders of hackathons and how things can be built with prior knowledge.
 
 ## Classes
