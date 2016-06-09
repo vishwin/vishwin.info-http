@@ -30,6 +30,10 @@ def error_404(error):
 def error_403(error):
 	return render_template('403.html'), 403
 
+@app.errorhandler(500)
+def error_500(error):
+	return render_template('500.html'), 500
+
 @app.route('/static/js/<js>')
 def render_js(js):
 	try:
