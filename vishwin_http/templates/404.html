@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/static/css/bsod.css">
-</head>
-<body>
+{% extends 'bsod.html' %}
+{% block body %}
 A problem has been detected and Windows has been shut down to prevent damage<br>to your computer.
 <br><br>
 If this is the first time you've seen this Stop error screen,<br>restart your computer. If this screen appears again, follow<br>these steps:
@@ -17,5 +11,4 @@ Check with your system maintainer for any system updates. Disable<br>performance
 Technical information:
 <br><br>
 *** STOP: 0x000194 (page not found)
-</body>
-</html>
+{% endblock %}
