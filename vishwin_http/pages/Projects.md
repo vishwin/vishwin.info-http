@@ -21,7 +21,7 @@ It has [its own page](Hackathons).
 
 * **Tornado exhibit**: repairing, improving and handing-off this exhibit to [Discovery Space](http://mydiscoveryspace.org/) children's science museum.
 * **Himalaya.com**: project for [database design/management class](http://www.cse.psu.edu/~wlee/cmpsc431w/).
-* **[PHP-Housingboard](https://git.vishwin.info/php-housingboard.git/)**: final project for [the PHP/MySQL course that I am now assisting in](http://www.openwebby.com/IST256/). Licensed under three-clause BSD.
+* **[PHP-Housingboard](https://git.vishwin.info/php-housingboard.git/)**: final project for [the PHP/MySQL course that I assisted in](http://www.openwebby.com/IST256/). Licensed under three-clause BSD.
 
 ## Activities
 
