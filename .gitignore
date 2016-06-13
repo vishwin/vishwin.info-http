@@ -14,3 +14,6 @@ config.py
 
 # updater shell scripts
 *.sh
+
+# app filesystem cache
+vishwin_http/cache/
