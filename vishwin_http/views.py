@@ -9,18 +9,31 @@ from markdown.extensions.headerid import HeaderIdExtension
 from slimit import minify
 
 from PIL import Image
+import exifread
+from mimetypes import guess_type
 import io
 
 from vishwin_http import app, cache
-from vishwin_http.utils import *
 
 Sass(
-	{'app': 'scss/app.scss'},
+	{'app': 'scss/app.scss', 'bsod': 'scss/bsod.scss'},
 	app,
 	url_path='/static/css',
 	include_paths=[pkg_resources.resource_filename('vishwin_http.views', 'scss')],
 	output_style='compressed'
 )
+
+@app.errorhandler(404)
+def error_404(error):
+	return render_template('404.html'), 404
+
+@app.errorhandler(403)
+def error_403(error):
+	return render_template('403.html'), 403
+
+@app.errorhandler(500)
+def error_500(error):
+	return render_template('500.html'), 500
 
 @app.route('/static/js/<js>')
 def render_js(js):
@@ -35,24 +48,35 @@ def render_js(js):
 	except OSError:
 		abort(404)
 
-@app.route('/static/img/<imgfile>.<ext>')
-def return_img(imgfile, ext):
+@app.route('/static/img/<imgfile>')
+def return_img(imgfile):
 	try:
-		return send_file(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile + '.' + ext), mimetype=img_mimetype(ext))
-	except IOError:
+		return send_file(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile), mimetype=guess_type(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile))[0])
+	except OSError:
 		abort(404)
 
-@app.route('/static/img/<width>px-<imgfile>.<ext>')
-def render_thumb(width, imgfile, ext):
+@app.route('/static/img/<width>px-<imgfile>')
+def render_thumb(width, imgfile):
 	try:
-		img=Image.open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile + '.' + ext))
+		img=open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile), 'rb')
+		tags=exifread.process_file(img, details=False, stop_tag='Image Orientation')
+		img.close()
+		img=Image.open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile))
+		format=img.format # attribute is cleared upon transpose
+		if 'Image Orientation' in tags: # really if EXIF tags are present
+			if tags['Image Orientation'].values[0]>=5:
+				img=img.transpose(Image.ROTATE_270) # rotations in PIL(low) are anti-clockwise, would be easier if clockwise was default
+			if (tags['Image Orientation'].values[0]==(3 or 4)) or tags['Image Orientation'].values[0]>=7:
+				img=img.transpose(Image.ROTATE_180)
+			if tags['Image Orientation'].values[0]==(2 or 4 or 5 or 7): # flipped images
+				img=img.transpose(Image.FLIP_LEFT_RIGHT)
 		imgIO=io.BytesIO()
 		img.thumbnail((int(width), int(width)/(img.size[0]/img.size[1])))
-		img.save(imgIO, img.format)
+		img.save(imgIO, format)
 		img.close()
 		imgIO.seek(0)
-		return send_file(imgIO, mimetype=img_mimetype(ext))
-	except IOError:
+		return send_file(imgIO, mimetype=guess_type(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile))[0])
+	except OSError:
 		abort(404)
 
 @app.route('/<page>')

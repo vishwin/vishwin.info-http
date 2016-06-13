@@ -15,6 +15,8 @@ In reverse chronological order:
 ## BrickHack&nbsp;2016
 _5&ndash;6&nbsp;March 2016, Rochester Institute of Technology, Rochester, NY_
 
+![Brick the HUD](/static/img/640px-BrickHack_2016.jpg)
+
 ## MHacks&nbsp;Refactor
 _19&ndash;21&nbsp;February 2016, University of Michigan, Ann Arbor, MI_
 
@@ -27,27 +29,35 @@ _16&ndash;17&nbsp;January 2016, Drexel University, Philadelphia, PA_
 ## OHI/O&nbsp;2015
 _14&ndash;15&nbsp;November 2015, The Ohio State University, Columbus, OH_
 
+![OHI/O 2015](/static/img/640px-OHIO_2015.jpg)
+
 ## YHack&nbsp;2015
 _6&ndash;8&nbsp;November 2015, Yale University, New Haven, CT_
 
 We built a car that picked up and drove shoes to wheelchair level for disabled veterans. It fell apart before it could pick up its first shoe.
+
+![Kortana](/static/img/640px-YHack_2015.jpg)
 
 ## HackUMass&nbsp;2015
 _23&ndash;25&nbsp;October 2015, University of Massachusetts Amherst, Amherst, MA_
 
 We made a rogue, drive-away alarm clock.
 
+![Excitare](/static/img/640px-HackUMass_2015.jpg)
+
 ## Kent Hack Enough&nbsp;2015
 _9&ndash;11&nbsp;October 2015, Kent State University, Kent, OH_
 
 I built an early-warning detection system for nearsightedness.
+
+![Insighted](/static/img/640px-KHE_2015.jpg)
 
 ## HackGT&nbsp;2015
 _25&ndash;27&nbsp;September 2015, Georgia Institute of Technology, Atlanta, GA_
 
 We made a coffee machine/mixer featuring three different roasts of ground coffee. Combining them, specifically Dunkin Donuts French Roast, Starbucks Sumatra and Community Coffee New Orleans Blend with Chicory, resulted in the HackGT Special. Drip-type coffee machine controlled by a Flask app.
 
-## MHacks Fall&nbsp;2015
+## MHacks 6
 _11&ndash;13&nbsp;September 2015, University of Michigan, Ann Arbor, MI_
 
 We attempted a location via sound triangulation using fast Fourier transform.
@@ -62,6 +72,8 @@ _27&nbsp;February&ndash;1&nbsp;March 2015, University of Illinois, Urbana, IL_
 
 **[(Dr Dre's) Mix Machine](https://git.vishwin.info/mixmachinebydre.git/)** ([Devpost](http://devpost.com/software/mix-machine)): a machine learning drink mixer that didn't actually mix drinks due to a lack of a liquid pump available. Used a Raspberry Pi&nbsp;2 and a bunch of servos; apparently the two don't mix too well (pun intended).
 
+![Mix Machine](/static/img/640px-HackIllinois_2015.jpg)
+
 ## VTHacks&nbsp;2015
 _6&ndash;8&nbsp;February 2015, Virginia Polytechnic Institute and State University, Blacksburg, VA_
 
@@ -71,6 +83,10 @@ _6&ndash;8&nbsp;February 2015, Virginia Polytechnic Institute and State Universi
 _16&ndash;18&nbsp;January 2015, University of Pennsylvania, Philadelphia, PA_
 
 **[CritSim](https://github.com/Knyte/CritSim)** ([Devpost](http://devpost.com/software/critsim)): a cycling sensor framework that transmits handlebar force (turn simulation) and wheel spin (instantaneous velocity and distance pedalled) data using a network daemon; demoed output with a D3.js simulation. Used two Arduinos plus sensors to gather data. Additional inputs, like Sensoria sock, can be added for more data; output can be Oculus/VR and even multiplayer. Licensed under GPLv2.
+
+![front view](/static/img/640px-PennApps_s2015.jpg)
+
+![back view](/static/img/640px-PennApps_s2015a.jpg)
 
 ## YHack&nbsp;2014
 _31&nbsp;October&ndash;2&nbsp;November 2014, Yale University, New Haven, CT_

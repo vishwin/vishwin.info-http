@@ -14,14 +14,14 @@ It has [its own page](Hackathons).
 
 ## Talks
 
-* **[Hackathon prep for ACM (2016)](/static/ACM_Hackathon_prep_2016.pdf)** (PDF, with LaTeX source): it's time to go out of your comfort zone Penn State ACM. Way out.
+* **[Hackathon prep for ACM (2016)](/static/ACM_Hackathon_prep_2016.pdf)** (PDF, with [LaTeX source](/static/ACM_Hackathon_prep_2016.tex)): it's time to go out of your comfort zone Penn State ACM. Way out.
 * **[Hackathon prep for ACM (2015)](/static/ACM_Hackathon_prep.pdf)** (PDF, originally a Google Doc): given twice, this introduces the Penn State ACM membership to the wonders of hackathons and how things can be built with prior knowledge.
 
 ## Classes
 
 * **Tornado exhibit**: repairing, improving and handing-off this exhibit to [Discovery Space](http://mydiscoveryspace.org/) children's science museum.
 * **Himalaya.com**: project for [database design/management class](http://www.cse.psu.edu/~wlee/cmpsc431w/).
-* **[PHP-Housingboard](https://git.vishwin.info/php-housingboard.git/)**: final project for [the PHP/MySQL course that I am now assisting in](http://www.openwebby.com/IST256/). Licensed under three-clause BSD.
+* **[PHP-Housingboard](https://git.vishwin.info/php-housingboard.git/)**: final project for [the PHP/MySQL course that I assisted in](http://www.openwebby.com/IST256/). Licensed under three-clause BSD.
 
 ## Activities
 
