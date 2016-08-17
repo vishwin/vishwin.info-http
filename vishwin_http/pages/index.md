@@ -55,7 +55,9 @@
 ```
 * [projects](Projects)&nbsp;&ndash;&nbsp;anything I've ever had the privilege of laying my dirty hands on
 	* [git](https://git.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
-* [resume](static/resume.pdf)&nbsp;&ndash;&nbsp;in PDF format.
+* resume&nbsp;&ndash;&nbsp;in TeX sources only.
+	* [software-focused](static/resumé-s.tex)
+	* [embedded and hardware-focused](static/resumé-h.tex)
 
 # recreation/
 ```

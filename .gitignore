@@ -5,6 +5,7 @@ config.py
 
 # crap tmp files left by GUI text editors:
 *~
+*.swp
 
 # OS X crap
 .DS_Store
