@@ -53,8 +53,10 @@
     /'\_   _/`\
     \___)=(___/
 ```
+* wahgwan.xyz&nbsp;&ndash;&nbsp;doing consulting my way, launching soon
 * [projects](Projects)&nbsp;&ndash;&nbsp;anything I've ever had the privilege of laying my dirty hands on
 	* [git](https://git.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
+* [talks](Talks)&nbsp;&ndash;&nbsp;readings, writings and real talk
 * resume&nbsp;&ndash;&nbsp;in TeX sources only.
 	* [software-focused](static/resumé-s.tex)
 	* [embedded and hardware-focused](static/resumé-h.tex)
@@ -82,9 +84,10 @@
      %.         z*"                      ^%.        .r"
         "*==*""                             ^"*==*""
 ```
-* [hackathons](Hackathons)&nbsp;&ndash;&nbsp;ad-hoc sprints to break the rules and possibly porcelain
+* [plug](http://www.phillylinux.org/)&nbsp;&ndash;&nbsp;Philadelphia Linux Users Group
 * [qcwcycling](http://qcwcycling.org/)&nbsp;&ndash;&nbsp;QCW Cycling
 * [acm](http://www.acm.org/)&nbsp;&ndash;&nbsp;Association for Computing Machinery (ACM)
+* [hackathons](Hackathons)&nbsp;&ndash;&nbsp;ad-hoc sprints to break the rules and possibly porcelain
 
 # archive/
 ```
