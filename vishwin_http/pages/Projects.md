@@ -7,15 +7,13 @@ The code that I start and work on by myself are by default released under open s
 # I created
 * **[This here website](https://git.vishwin.info/http.git/)**: the HTTP interface; gopher interface is coming soon. Code licensed under MPL&nbsp;2.0.
 
+# Talks
+It has [its own page](Talks).
+
 # Hackathons
-It has [its own page](Hackathons).
+Also on [its own page](Hackathons).
 
 # Penn State stuff
-
-## Talks
-
-* **[Hackathon prep for ACM (2016)](/static/ACM_Hackathon_prep_2016.pdf)** (PDF, with [LaTeX source](/static/ACM_Hackathon_prep_2016.tex)): it's time to go out of your comfort zone Penn State ACM. Way out.
-* **[Hackathon prep for ACM (2015)](/static/ACM_Hackathon_prep.pdf)** (PDF, originally a Google Doc): given twice, this introduces the Penn State ACM membership to the wonders of hackathons and how things can be built with prior knowledge.
 
 ## Classes
 
