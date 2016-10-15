@@ -1,10 +1,12 @@
-Hackathons have become a pretty big part of my life these days. They are like exercise, although mostly mental and actually have the ability to disrupt (or better yet, enhance) the world. The same ground rules apply from the rest of my [Projects](/Projects).
+Hackathons were a pretty big part of my life these days. They are like exercise, although mostly mental and actually have the ability to disrupt (or better yet, enhance) the world. The same ground rules apply from the rest of my [Projects](/Projects).
 
 [TOC]
 
 # Schedule
 
-It's summer! I'm probably out riding bikes right now.
+As of October&nbsp;2016, I am almost completely retired from participating in collegiate hackathons. Reasons are mostly personal in nature, but some aspects of collegiate hackathon culture have also factored in this. I may make appearances at certain events, but really only when my friends I have worked with or people I have developed much camaraderie with will also be present. Maybe more explanation in a blog post.
+
+This does not affect my stance on non-collegiate hackathons, however I have not found compelling reason or will to participate in them just yet.
 
 # Past events
 
