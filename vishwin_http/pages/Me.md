@@ -18,10 +18,4 @@ In addition to my computing work, I was a mentor and director, specifically webm
 
 In my other time not spent in front of desktop computer machines (includes laptops!), I ride, race and tinker with bicycles. I am an officer for [Penn State Cycling](http://clubs.psu.edu/up/bike/) and currently maintain its website. Outside of the collegiate scene, I ride and train with many people in the Philadelphia area. Cycling allows me to enjoy the interactions and experiences with other people in a very different manner that requires direct consideration for one another's safety and well-being than just collaboration in software/hardware development.
 
-If you need to contact me, email works for pretty much everything, especially for new acquaintances. I have three accounts for different purposes:
-
-* [Personal stuff](/JavaScript){: class="pmail" }
-* [Business and engineering purposes](/JavaScript){: class="bmail" }
-* [Academic stuff](/JavaScript){: class="amail" }
-
-But please read my [notes on email](/Contact#email) first; they may come in handy.
+If you need to contact me, email works for pretty much everything, especially for new acquaintances. Please read my [notes on email](/Contact#email) before contacting me.

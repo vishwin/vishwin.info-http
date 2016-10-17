@@ -5,11 +5,11 @@ There are a few ways to contact me, but email is best.
 # Email
 I have 3.5&nbsp;email accounts I check on a regular basis, each for different purposes.
 
+There's an account for business and engineering purposes. This includes most technical communication, job-related communication and other formal business, unless such has to do with purposes covered in the following mailboxes. [Initiate business and engineering communication here](/JavaScript){: class="bmail" }.
+
+There's my personal account, which is for everything other than what's intended for the above email excepting academic communication. This is where to send inquiries about open source/community projects, including personal projects and those I maintain. [Personal communication goes here](/JavaScript){: class="pmail" }; [send patches for my software here](/JavaScript){: class="patchmail" }.
+
 There's my Penn State account, which is intended for academic use only. [Initiate academic communication here](/JavaScript){: class="amail" }.
-
-There's an account for business and engineering purposes. This includes most technical communication, job-related communication and other formal business, unless such is academically-related. [Initiate business and engineering communication here](/JavaScript){: class="bmail" }; [send patches for my software here](/JavaScript){: class="patchmail" }.
-
-And there's my personal account. Everything other than the aforementioned goes here, including most bills. [Personal communication goes here](/JavaScript){: class="pmail" }.
 
 The fourth account, whose address I will not mention here, is used for non-Penn State mailing list and newsgroup communication. Since list archives are pretty much public (and with the numerous anti-harvesting measures taken there already), I prefer to have something to identify myself with other than the email accounts I actually check. Plus it looks cool.
 
