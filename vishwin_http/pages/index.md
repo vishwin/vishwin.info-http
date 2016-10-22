@@ -58,8 +58,8 @@
 	* [git](https://git.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
 * [talks](Talks)&nbsp;&ndash;&nbsp;readings, writings and real talk
 * resume&nbsp;&ndash;&nbsp;in TeX sources only.
-	* [software-focused](static/resumé-s.tex)
-	* [embedded and hardware-focused](static/resumé-h.tex)
+	* [software-focused](static/resume-s.tex)
+	* [embedded and hardware-focused](static/resume-h.tex)
 
 # recreation/
 ```
