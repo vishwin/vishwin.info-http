@@ -53,7 +53,7 @@
     /'\_   _/`\
     \___)=(___/
 ```
-* wahgwan.xyz&nbsp;&ndash;&nbsp;doing consulting my way, launching soon
+* wahgwan.xyz&nbsp;&ndash;&nbsp;technical and engineering services my way, launching soon
 * [projects](Projects)&nbsp;&ndash;&nbsp;anything I've ever had the privilege of laying my dirty hands on
 	* [git](https://git.vishwin.info/)&nbsp;&ndash;&nbsp;browse my public source code
 * [talks](Talks)&nbsp;&ndash;&nbsp;readings, writings and real talk
