@@ -6,13 +6,18 @@ Hackathons were a pretty big part of my life these days. They are like exercise,
 
 As of October&nbsp;2016, I am almost completely retired from participating in collegiate hackathons. Reasons are mostly personal in nature, but some aspects of collegiate hackathon culture have also factored in this. I may make appearances at certain events, but really only when my friends I have worked with or people I have developed much camaraderie with will also be present. Maybe more explanation in a blog post.
 
-This does not affect my stance on non-collegiate hackathons, however I have not found compelling reason or will to participate in them just yet.
+This does not affect my stance on non-collegiate hackathons.
 
 # Past events
 
 Unless otherwise noted, if the source code is available, it is not open source unless the other team members agreed to the code released that way.
 
 In reverse chronological order:
+
+## Independence/Jefferson Health Hack&nbsp;2016
+_4&ndash;6&nbsp;November 2016, Thomas Jefferson University, Philadelphia, PA_
+
+![Intact Birth](/static/img/640px-HealthHackPHL_2016.jpg)
 
 ## BrickHack&nbsp;2016
 _5&ndash;6&nbsp;March 2016, Rochester Institute of Technology, Rochester, NY_
