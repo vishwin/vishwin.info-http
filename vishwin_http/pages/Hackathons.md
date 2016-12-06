@@ -17,45 +17,57 @@ In reverse chronological order:
 ## Independence/Jefferson Health Hack&nbsp;2016
 _4&ndash;6&nbsp;November 2016, Thomas Jefferson University, Philadelphia, PA_
 
+**[Intact Birth](http://innovation.jefferson.edu/healthhack/2016-winners.html)**
+
 ![Intact Birth](/static/img/640px-HealthHackPHL_2016.jpg)
 
 ## BrickHack&nbsp;2016
 _5&ndash;6&nbsp;March 2016, Rochester Institute of Technology, Rochester, NY_
+
+**[Brick the HUD](https://git.vishwin.info/hackathon/crashtheHUD.git/)**
 
 ![Brick the HUD](/static/img/640px-BrickHack_2016.jpg)
 
 ## MHacks&nbsp;Refactor
 _19&ndash;21&nbsp;February 2016, University of Michigan, Ann Arbor, MI_
 
+**[When Craigslist meets MHacks](https://devpost.com/software/hotties-with-bodies-in-a-hottub)**
+
 ## Fashion/Tech Hackathon&nbsp;2016
 _29&ndash;31&nbsp;January 2016, Kent State University, Kent, OH_
+
+**[SmarterWear](https://devpost.com/software/smarterwear)**
 
 ## DragonHacks&nbsp;2016
 _16&ndash;17&nbsp;January 2016, Drexel University, Philadelphia, PA_
 
+**[AmeriToots](https://devpost.com/software/ameritoots)** ([client source](https://git.vishwin.info/hackathon/ameriToots-arduino.git/), [server source](https://git.vishwin.info/hackathon/ameriToots-server.git/))
+
 ## OHI/O&nbsp;2015
 _14&ndash;15&nbsp;November 2015, The Ohio State University, Columbus, OH_
+
+We built a car with video conferencing that could be controlled via a REST API.
 
 ![OHI/O 2015](/static/img/640px-OHIO_2015.jpg)
 
 ## YHack&nbsp;2015
 _6&ndash;8&nbsp;November 2015, Yale University, New Haven, CT_
 
-We built a car that picked up and drove shoes to wheelchair level for disabled veterans. It fell apart before it could pick up its first shoe.
+**[Kortana](https://devpost.com/software/kortana-7kgmho)**: We built a car that picked up and drove shoes to wheelchair level for disabled veterans. It fell apart before it could pick up its first shoe.
 
 ![Kortana](/static/img/640px-YHack_2015.jpg)
 
 ## HackUMass&nbsp;2015
 _23&ndash;25&nbsp;October 2015, University of Massachusetts Amherst, Amherst, MA_
 
-We made a rogue, drive-away alarm clock.
+**[Excitare](https://devpost.com/software/excitare)**: We made a rogue, drive-away alarm clock.
 
 ![Excitare](/static/img/640px-HackUMass_2015.jpg)
 
 ## Kent Hack Enough&nbsp;2015
 _9&ndash;11&nbsp;October 2015, Kent State University, Kent, OH_
 
-I built an early-warning detection system for nearsightedness.
+**[Insighted](https://git.vishwin.info/hackathon/insighted.git/)** ([Devpost](https://devpost.com/software/insighted)): I built an early-warning detection system for nearsightedness.
 
 ![Insighted](/static/img/640px-KHE_2015.jpg)
 
