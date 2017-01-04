@@ -1,5 +1,8 @@
-#!/usr/bin/python3
-from flask import Flask, render_template, Response, url_for, Markup, abort, send_file
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+from flask import render_template, Response, Markup, abort, send_file
 from flask_libsass import *
 import pkg_resources
 
