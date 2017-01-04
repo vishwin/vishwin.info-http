@@ -6,7 +6,9 @@ When I'm not being a terrible person, sometimes I write stuff and talk about oth
 
 The Philadelphia Linux Users Group, hereafter abbreviated as PLUG, are exactly its name. There are three meetings per month where those into Linux and other open source technology come together to talk and learn from one another. These meetings stay alive with the same people giving talks on anything worth presenting to an audience.
 
-* **nftables**: the new generation of the standard Linux firewall. To be test driven in November with a hopefully better-polished version given in January
+* **nftables**: the new generation of the standard Linux firewall.
+	* [North, December&nbsp;2016](/static/nftables_mk1.pdf) (PDF slides, clickable)
+	* Central, January&nbsp;2017 (PDF slides, clickable)
 
 # Penn State
 
