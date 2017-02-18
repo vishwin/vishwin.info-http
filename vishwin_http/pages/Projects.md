@@ -8,7 +8,7 @@ The code that I start and work on by myself are by default released under open s
 * **[This here website](https://git.vishwin.info/http.git/)**: the HTTP interface; gopher interface is coming soon. Code licensed under MPL&nbsp;2.0.
 
 # I maintain
-…[Arch (Linux) User Repository packages](https://aur.archlinux.org/account/vishwin).
+…[Arch Linux](https://www.archlinux.org/) AUR [packages](https://aur.archlinux.org/packages/?K=vishwin&SeB=m).
 
 # Talks
 It has [its own page](Talks).
