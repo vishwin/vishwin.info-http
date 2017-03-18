@@ -3,12 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 from flask import Flask
-from werkzeug.contrib.cache import FileSystemCache
+from werkzeug.contrib.cache import MemcachedCache
 import pkg_resources
 
 app=Flask(__name__)
-#app.config.from_object('config')
+app.config.from_object('config')
 
-cache=FileSystemCache(pkg_resources.resource_filename('vishwin_http', 'cache'), default_timeout=60 * 60) # one hour timeout
+# set up a memcached Werkzeug cache, prefixing each key, with default timeout of one hour
+cache=MemcachedCache(servers=app.config['MEMCACHED_SERVERS'], key_prefix=app.config['MEMCACHED_KEYPREFIX'], default_timeout=60 * 60)
 
 import vishwin_http.views
