@@ -14,7 +14,7 @@ from slimit import minify
 from PIL import Image
 import exifread
 from mimetypes import guess_type
-import io
+import io, os.path
 
 from vishwin_http import app, cache
 
@@ -61,29 +61,32 @@ def return_img(imgfile):
 @app.route('/static/img/<width>px-<imgfile>')
 def render_thumb(width, imgfile):
 	try:
-		img=cache.get(width + 'px-' + imgfile)
-		if img is None:
-			img=open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile), 'rb')
-			tags=exifread.process_file(img, details=False, stop_tag='Image Orientation')
+		imgpath=pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile)
+		thumbfile=width + 'px-' + imgfile
+		thumbpath=pkg_resources.resource_filename('vishwin_http.views', 'img/thumb/' + thumbfile)
+		# get file modified time for original; will throw exception if not found
+		mtime_orig=os.path.getmtime(imgpath)
+		if not (os.path.isfile(thumbpath)) or (os.path.getmtime(thumbpath) < mtime_orig):
+			img=open(imgpath, 'rb')
+			tags=exifread.process_file(img, details=False, stop_tag='Image_Orientation')
 			img.close()
-			img=Image.open(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile)) # PIL open
-			format=img.format # attribute is cleared upon transpose
-			if 'Image Orientation' in tags: # really if EXIF tags are present
+			# reopen using PIL
+			img=Image.open(imgpath)
+			# upon transpose, format attribute in object is cleared
+			format=img.format
+			if 'Image Orientation' in tags:
 				if tags['Image Orientation'].values[0]>=5:
-					img=img.transpose(Image.ROTATE_270) # rotations in PIL(low) are anti-clockwise, would be easier if clockwise was default
+					# rotations in PIL(low) are anti-clockwise, would be easier if clockwise was default
+					img=img.transpose(Image.ROTATE_270)
 				if (tags['Image Orientation'].values[0]==(3 or 4)) or tags['Image Orientation'].values[0]>=7:
 					img=img.transpose(Image.ROTATE_180)
-				if tags['Image Orientation'].values[0]==(2 or 4 or 5 or 7): # flipped images
+				# flipped images
+				if tags['Image Orientation'].values[0]==(2 or 4 or 5 or 7):
 					img=img.transpose(Image.FLIP_LEFT_RIGHT)
 			img.thumbnail((int(width), int(width)/(img.size[0]/img.size[1])))
-			imgIO=io.BytesIO()
-			img.save(imgIO, format)
+			img.save(thumbpath, format)
 			img.close()
-			imgIO.seek(0)
-			img=imgIO.read() # get actual encoded image, not just raw bytes a la PIL.tobytes()
-			imgIO.close()
-			cache.set(width + 'px-' + imgfile, img)
-		return Response(img, mimetype=guess_type(pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile))[0])
+		return send_file(thumbpath, mimetype=guess_type(imgpath)[0])
 	except OSError:
 		abort(404)
 
