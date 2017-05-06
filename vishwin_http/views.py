@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 from flask import render_template, Response, Markup, abort, send_file
-from flask_libsass import *
+from sassutils.wsgi import SassMiddleware
 import pkg_resources
 
 import markdown
@@ -18,13 +18,7 @@ import io, os.path
 
 from vishwin_http import app, cache
 
-Sass(
-	{'app': 'scss/app.scss', 'bsod': 'scss/bsod.scss'},
-	app,
-	url_path='/static/css',
-	include_paths=[pkg_resources.resource_filename('vishwin_http.views', 'scss')],
-	output_style='compressed'
-)
+app.wsgi_app=SassMiddleware(app.wsgi_app, {'vishwin_http': ('scss', 'css', 'static/css')})
 
 @app.errorhandler(404)
 def error_404(error):
