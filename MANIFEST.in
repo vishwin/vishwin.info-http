@@ -1,4 +1,6 @@
 include LICENCE
+include vishwin_http/generated/css/.keep
+include vishwin_http/generated/thumb/.keep
 recursive-include vishwin_http/img *
 recursive-include vishwin_http/js *
 recursive-include vishwin_http/pages *
