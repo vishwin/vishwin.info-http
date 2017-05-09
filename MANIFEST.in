@@ -1,0 +1,7 @@
+include LICENCE
+recursive-include vishwin_http/img *
+recursive-include vishwin_http/js *
+recursive-include vishwin_http/pages *
+recursive-include vishwin_http/scss *
+recursive-include vishwin_http/static *
+recursive-include vishwin_http/templates *

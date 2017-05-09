@@ -18,7 +18,7 @@ import io, os.path
 
 from vishwin_http import app, cache
 
-app.wsgi_app=SassMiddleware(app.wsgi_app, {'vishwin_http': ('scss', 'css', 'static/css')})
+#app.wsgi_app=SassMiddleware(app.wsgi_app, {'vishwin_http': ('scss', 'generated/css', 'static/css')})
 
 @app.errorhandler(404)
 def error_404(error):
@@ -57,7 +57,7 @@ def render_thumb(width, imgfile):
 	try:
 		imgpath=pkg_resources.resource_filename('vishwin_http.views', 'img/' + imgfile)
 		thumbfile=width + 'px-' + imgfile
-		thumbpath=pkg_resources.resource_filename('vishwin_http.views', 'img/thumb/' + thumbfile)
+		thumbpath=pkg_resources.resource_filename('vishwin_http.views', 'generated/thumb/' + thumbfile)
 		# get file modified time for original; will throw exception if not found
 		mtime_orig=os.path.getmtime(imgpath)
 		if not (os.path.isfile(thumbpath)) or (os.path.getmtime(thumbpath) < mtime_orig):

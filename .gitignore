@@ -13,11 +13,5 @@ config.py
 # the WSGI executable
 *.wsgi
 
-# updater shell scripts
-*.sh
-
-# app thumbnail cache
-vishwin_http/img/thumb/
-
-# CSS cache
-vishwin_http/css/
+# app generated caches
+vishwin_http/generated/
