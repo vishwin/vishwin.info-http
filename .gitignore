@@ -13,5 +13,10 @@ config.py
 # the WSGI executable
 *.wsgi
 
-# app generated caches
-vishwin_http/generated/
+# app generated caches, but keep directory structure
+vishwin_http/generated/css/*
+!vishwin_http/generated/css/.keep
+vishwin_http/generated/thumb/*
+!vishwin_http/generated/thumb/.keep
+
+vishwin_http.egg-info/
