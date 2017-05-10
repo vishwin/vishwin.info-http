@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 	name='vishwin-http',
-	version='17.05.09',
+	version='17.05.10',
 	description='The vishwin.info HTTP interface',
 	url='https://git.vishwin.info/site/http.git/',
 	author='Charlie Li',
