@@ -7,7 +7,7 @@ from werkzeug.contrib.cache import MemcachedCache
 import pkg_resources
 
 app=Flask(__name__)
-app.config.from_object('config')
+app.config.from_pyfile('config.py')
 
 # set up a memcached Werkzeug cache, prefixing each key, with default timeout of one hour
 cache=MemcachedCache(servers=app.config['MEMCACHED_SERVERS'], key_prefix=app.config['MEMCACHED_KEYPREFIX'], default_timeout=60 * 60)
