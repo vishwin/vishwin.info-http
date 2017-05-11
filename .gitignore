@@ -1,3 +1,7 @@
+# python setuptools
+*.egg*
+build/
+dist/
 *.pyc
 
 # sensitive information:
@@ -18,5 +22,3 @@ vishwin_http/generated/css/*
 !vishwin_http/generated/css/.keep
 vishwin_http/generated/thumb/*
 !vishwin_http/generated/thumb/.keep
-
-vishwin_http.egg-info/
